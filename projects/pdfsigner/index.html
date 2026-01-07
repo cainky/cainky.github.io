@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-project="pdfsigner">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Kyle Cain</title>
+    <meta name="description" content="Project landing page for Kyle Cain repositories.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/projects/assets/projects.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js" defer></script>
+    <script src="/projects/assets/projects-data.js" defer></script>
+    <script src="/projects/assets/project-page.js" defer></script>
+</head>
+<body data-motif="grid">
+    <div class="bg-layer">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <a href="/" class="brand">Kyle Cain</a>
+            <div class="nav-links">
+                <a href="/#projects">Projects</a>
+                <a href="https://kylecain.me/hire">Hire Me</a>
+                <a href="https://github.com/cainky" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <iconify-icon icon="mdi:github" style="font-size: 1.2rem;"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page">
+        <div class="container">
+            <section class="hero-shell">
+                <div class="hero">
+                    <p id="project-eyebrow" class="eyebrow">Project Landing</p>
+                    <h1 id="project-name">Loading project...</h1>
+                    <p id="project-summary">Loading summary...</p>
+
+                    <div class="hero-actions">
+                        <a id="repo-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <iconify-icon icon="ph:github-logo-duotone"></iconify-icon>
+                            View Repository
+                        </a>
+                        <a href="/#projects" class="btn">Back to Projects</a>
+                    </div>
+
+                    <a data-sponsor-link href="https://github.com/sponsors/cainky" target="_blank" rel="noopener noreferrer" class="sponsor-btn">
+                        <iconify-icon icon="ph:heart-duotone"></iconify-icon>
+                        Sponsor on GitHub
+                    </a>
+                </div>
+
+                <aside class="hero-panel glass">
+                    <div class="hero-panel-top">
+                        <span id="panel-category-pill" class="panel-pill">Category</span>
+                        <iconify-icon id="project-icon" class="panel-icon" icon="ph:cube-duotone"></iconify-icon>
+                    </div>
+                    <h2 id="project-tagline" class="panel-title">Loading identity...</h2>
+                    <p id="project-mood" class="panel-copy">Loading project direction...</p>
+                    <div id="project-signals" class="signal-list"></div>
+                </aside>
+            </section>
+
+            <div class="grid">
+                <section class="glass meta-grid reveal-a">
+                    <article>
+                        <span class="meta-label">Category</span>
+                        <div id="meta-category" class="meta-value">Loading...</div>
+                    </article>
+                    <article>
+                        <span class="meta-label">Status</span>
+                        <div id="meta-status" class="meta-value">Loading...</div>
+                    </article>
+                    <article>
+                        <span class="meta-label">Repository</span>
+                        <div id="repo-name-meta" class="meta-value repo-code">Loading...</div>
+                    </article>
+                    <article class="meta-wide">
+                        <span class="meta-label">Stack</span>
+                        <div id="project-stack" class="stack"></div>
+                    </article>
+                </section>
+
+                <section class="glass reveal-b">
+                    <h2 class="section-title">What It Does</h2>
+                    <ul id="project-highlights" class="list">
+                        <li>Loading highlights...</li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a id="repo-link-secondary" href="#" target="_blank" rel="noopener noreferrer" class="btn">
+                            Open <span id="repo-name">Repository</span>
+                        </a>
+                        <a data-sponsor-link href="https://github.com/sponsors/cainky" target="_blank" rel="noopener noreferrer" class="btn">
+                            Support Development
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>&copy; 2026 Kyle Cain</span>
+            <a href="mailto:contact@kylecain.me">contact@kylecain.me</a>
+        </div>
+    </footer>
+</body>
+</html>
