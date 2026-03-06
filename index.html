@@ -324,7 +324,7 @@
         const tagRules = [
             { tag: 'Gaming', keywords: ['counterstrike', 'quake', 'game', 'steam', 'fps', 'hud'] },
             { tag: 'Developer Tools', keywords: ['lint', 'env', 'cli', 'sdk', 'plugin', 'devtool', 'tooling', 'formatter', 'parser', 'refactor'] },
-            { tag: 'Utilities', keywords: ['pdf', 'sign', 'convert', 'replace', 'text', 'download', 'file', 'utility', 'generator'] },
+            { tag: 'Utilities', keywords: ['pdf', 'sign', 'convert', 'replace', 'swap', 'text', 'download', 'file', 'utility', 'generator'] },
             { tag: 'Music', keywords: ['soundcloud', 'midi', 'audio', 'music', 'video', 'media'] },
         ];
 
@@ -366,7 +366,7 @@
             if (n.includes('midi') || n.includes('music')) return 'ph:waveform-duotone';
             if (n.includes('pdf') || n.includes('signer')) return 'ph:file-pdf-duotone';
             if (n.includes('lint') || n.includes('env'))   return 'ph:terminal-window-duotone';
-            if (n.includes('replace'))        return 'ph:textbox-duotone';
+            if (n.includes('replace') || n.includes('textswap')) return 'ph:textbox-duotone';
             if (n.includes('api') || n.includes('server')) return 'ph:cloud-duotone';
             if (n.includes('bot'))            return 'ph:robot-duotone';
             if (n.includes('cli') || n.includes('tool'))   return 'ph:terminal-duotone';
